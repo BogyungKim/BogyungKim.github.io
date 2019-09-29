@@ -1,4 +1,149 @@
----
-layout: home
-author_profile: true
----
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+Template Name: Gallerised
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Bogyung Kim (Bo)</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+    <script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
+    <!-- s3slider -->
+    <script type="text/javascript" src="layout/scripts/jquery.s3slider.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+        $('#featured_slide_').s3Slider({
+        timeOut:6000
+        });
+        });
+    </script>
+    <!-- / s3slider -->
+</head>
+<body id="top">
+<div class="wrapper col1">
+  <div id="header">
+    <div id="topnav">
+      <ul>
+    
+        <li><a href="#">Resume/CV</a><span>See the links below!</span>
+          <ul>
+            <li><a href="resume.pdf">Resume</a></li>
+            <li><a href="resume.pdf">CV</a></li>
+       
+          </ul>
+        </li>
+        <li class="active"><a href="index.html">Projects</a></li>
+      </ul>
+    </div>
+    <div class="fl_left">
+      <h1><a href="index.html">Bogyung Kim (Bo)</a></h1>
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col4">
+    <div id="container">
+        <h1>Hi, I'm Bogyung Kim</h1>
+        <p>Below are some projects that I've been working on. Make sure to explore each of them!</p>
+  
+            <div class="row">
+
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img class="projects_bg" id="project_1" src="src/cookBook.png" alt="p1" />
+                        <div class="caption text-center">
+                            <h3>CookBook</h3>
+                            <p>This application is for people to share recipes and write reviews of recipes.</p>
+                            <p>
+                                Used Full Stack web techniques, i.e, React.js, GraphQL, Prisma and Apollo Client.
+                                <br /> - sever is down now, sorry.
+                            </p>
+                            <p>
+                                <a href="https://github.com/CookingApp/cookingapp" class="btn btn-danger" role="button">Source Code</a>
+                                <!--								<a class="btn btn-info" role="button">Link (currently not available)</a>-->
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img class="projects_bg" id="project_2" src="src/Tour_Duke.png" alt="p2" />
+                        <div class="caption text-center">
+                            <h3>Tour@Duke</h3>
+                            <p>This application offers information about famous and hidden attractions at Duke and automatically plans out possible visiting schedules based on the preference of individual preferences.</p>
+                            <p>Uses Vue.js and Firebase </p>
+                            <p>
+                                <a href="https://duke-compsci290-spring2018.github.io/final-project-team-35/#/" class="btn btn-info" role="button">Link</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img class="projects_bg" id="project_3" src="src/tweeter.png" alt="p3" />
+                        <div class="caption text-center">
+                            <h3>Tweeter</h3>
+                            <p>Twitter clone! A Combination of Backend and Front end web techniques.</p>
+                            <p>Backend developed with GraphQL and Apollo Client, Frontend developed with React.js<br /> - sever is down now, sorry.</p>
+                            <p>
+                                <a href="https://github.com/yk154/twitter_tweeter" class="btn btn-primary" role="button">Source Code</a>
+                                <!--								<a class="btn btn-info" role="button">Link (currently not available)</a>-->
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img class="projects_bg" id="project_4" src="src/kello.png" alt="p4" />
+                        <div class="caption text-center">
+                            <h3>Kello</h3>
+                            <p>Project Manager website! Boards are organized into the lists of cards that can be easily moved around.</p>
+                            <p>Using a combination of front end web techniques, i.e., Flexbox, Bootstrap, Vue.js, and Firebase.</p>
+                            <p>
+                                <a href="https://duke-compsci290-spring2018.github.io/assignments-portfolio-yk154/trello/index.html" class="btn btn-danger" role="button">Link</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <a href="https://youtu.be/QyqUPZlliwA" class="youtube_link"><img class="projects_bg" id="project_5" src="src/slogo_turtle.png" alt="p5" /></a>
+                        <div class="caption text-center">
+                            <h3>sLogo</h3>
+                            <p>Developed a Java program using JavaFX that provides an integrated development environment, IDE, that supports users to write SLogo programs.</p>
+                            <p>
+                                <a href="https://github.com/yk154/sLogo" class="btn btn-info" role="button">Source Code</a>
+                                <a href="https://youtu.be/QyqUPZlliwA" class="btn btn-warning" role="button">Demo</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+    </div>
+   
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col5">
+  <div id="footer">
+    <p class="fl_left">Copyright &copy; 2014 - All Rights Reserved - <a href="#">Domain Name</a></p>
+    <p class="fl_right">Template by <a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+    <br class="clear" />
+  </div>
+</div>
+</body>
+</html>
